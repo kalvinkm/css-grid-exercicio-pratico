@@ -1,0 +1,79 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap');
+
+:root {
+    --color-01: #FFFFFE;
+    --color-02: #333;
+    --color-03: #e7e7e7;
+    --color-04: #FFC21F;
+    --colo5-05: #00000068;
+
+    /* font */
+    --font: 'Lato', sans-serif;
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: var(--font);
+}
+
+body {
+    background-color: var(--color-01);
+}
+
+.container {
+    border: 3px solid #000;
+    display: block;
+    margin: 20px auto;
+    width: 600px;
+    box-shadow: 0, 0, 0, 0,;
+}
+
+.main-menu-title {
+    text-align: center;
+    background-color: var(--color-02);
+    color: var(--color-01);
+    border-bottom: solid 10px var(--color-04);
+    padding: 30px 0px;
+}
+
+.main-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: var(--color-03);
+}
+
+.navigation {
+    display: inline-block;
+    
+}
+
+.navigation a {
+    display: block;
+    padding: 20px 0px;
+    text-decoration: none;
+    color: var(--color-02);
+    font-size: 1.2rem;
+    width: 300px;
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.047);
+
+}
+
+.nav-a {
+    border-right: solid 2px var(--color-04);
+}
+
+.nav-b {
+    border-left: solid 2px var(--color-04);
+}
+
+.navigation a:hover {
+    color: var(--color-04);
+    text-decoration: underline;
+    background-color: var(--colo5-05);
+}

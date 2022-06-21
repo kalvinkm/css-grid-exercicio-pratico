@@ -1,0 +1,30 @@
+.container {
+    max-width: 1000px;
+    height: 98vh;
+    display: block;
+    margin: 0 auto;
+}
+
+.tab {
+    height: 100%;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    background-color: #836B33;
+    background-image: url('../assets/imgs/dirt.jpg');
+    border: 5px solid #594820;
+}
+
+
+
+img {
+    width: 170px;
+    display: block;
+    margin: 0 auto;
+}
+
+.water {
+    background-color: rgba(81, 140, 179, 1);
+    background-image: url('../assets/imgs/water.jpg');
+}
